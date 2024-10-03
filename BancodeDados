@@ -1,0 +1,23 @@
+
+CREATE DATABASE sistema_usuario;
+
+
+USE sistema_usuario;
+
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+INSERT INTO usuarios (nome, email, senha) VALUES 
+('Mariana Jubiscreude', 'mari.jubiscreude@example.com', SHA2('senha123', 256));
+
+
+SELECT * FROM usuarios 
+WHERE email = 'mari.jubiscreude@example.com' AND senha = SHA2('senha123', 256);
+
