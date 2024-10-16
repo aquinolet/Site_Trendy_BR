@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+    background-image: url("capasite.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.container {
+    text-align: left;
+    padding: 120px 40px;
+    background-color: #494A20;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #D9C39C;
+    font-size: 65px;
+    line-height: 10px;
+}
+h2 {
+    color: #D9C39C;
+    font-size: 30px;
+    line-height: 1px;
+}
+
+p {
+    color: #D9C39C;
+    line-height: 3px;
+
+}
+
+
+.button {
+    display: flex;
+    padding: 10px 80px;
+    text-align: left;
+    font-family: "Baloo 2", sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: #361206;
+    color: #D9C39C;
+    font-weight: bolder;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top:40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button1 {
+    display: flex;
+    padding: 10px 90px;
+    text-align: left;
+    font-family: "Baloo 2", sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: #9E4518;
+    color: #D9C39C;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top:-45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 280px;
+}
+
+.button:hover {
+    background-color: #C68537;
+}
+
+.button1:hover {
+    background-color: #C68537;
+    outline: #C68537;
+}
+
+.img {
+    height: 90px;
+    width: auto;
+    margin-left: 10px;
+}
