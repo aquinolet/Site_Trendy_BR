@@ -1,0 +1,93 @@
+body {
+    font-family: 'Baloo 2', sans-serif;
+    background-image: url('capasite2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: left;
+    padding: 80px 100px;
+    background-color: #D9C39C;
+    margin-right:  50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Baloo 2', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    size: 65px;
+    color: #361206;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #361206;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b9a686;
+    border-radius: 10px;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px 60px;
+    background-color: #494A20;
+    color: #D9C39C;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button2 {
+    padding: 10px 60px;
+    background-color: #D9C39C;
+    color: #361206;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button1:hover {
+    background-color: #713111;
+}
+
+.button2:hover {
+    background-color: #713111;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #9E4518;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
